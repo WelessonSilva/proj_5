@@ -2,6 +2,6 @@ import pandas as pd
 import plotly_express as px
 import streamlit as st 
 
-car_data = pd.read_csv("vehicles.csv")
-fig = px.histogram(car_data, x="odometer")
+df_car = pd.read_csv('df_car.csv')
+fig = px.histogram(df_car, x="odometer", y="price", color="blue", marginal="box",)
 fig.show()
