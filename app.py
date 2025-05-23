@@ -22,5 +22,5 @@ if hist_button:
 if scatter_button:
     st.subheader('Gráfico de dispersão')
     st.write('Esse gráfico mostra a relação entre o preço e a quilometragem dos carros.')
-    fig = px.scatter(df_car, x='price', y='model_year', color='paint_color')
+    fig = px.scatter(df_car, x='price', y='odometer', color='type')
     st.plotly_chart(fig, use_container_width=True)
