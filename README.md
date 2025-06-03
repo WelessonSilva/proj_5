@@ -1,4 +1,4 @@
-# Análise de vendas de carros - Projeto Srpint 5 
+# Análise de vendas de carros - Projeto Sprint 5 
 Este projeto é uma análise de dados de vendas de carro , com visualizações interativas criadas em Python utilizando **streamlit**. O objetivo é fornecer insights claros sobre as caracteristicas dos veículos vendidos, com base no ano do modelo, condição, tipo de combustível, quilometragem e outros. 
 
 ## Tecnologias Utilizadas 
